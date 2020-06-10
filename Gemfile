@@ -16,6 +16,7 @@ gem 'simple_form'
 gem 'factory_bot_rails'
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
+gem 'devise'
 gem 'language_list', '~> 1.2', '>= 1.2.1'
 gem 'bootsnap', '>= 1.1.0', require: false
 
