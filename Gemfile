@@ -21,6 +21,7 @@ gem 'language_list', '~> 1.2', '>= 1.2.1'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
+  gem 'faker'
   gem 'rspec-rails', '~> 3.8'
   gem 'pry-rails'
 end
@@ -36,7 +37,6 @@ group :test do
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
-  gem 'faker'
   gem 'shoulda-matchers', '4.0.0.rc1'
   gem 'rails-controller-testing' # If you are using Rails 5.x
   end
